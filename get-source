@@ -1,0 +1,2 @@
+git clone https://github.com/libvirt/libvirt.git
+git clone git://xenbits.xen.org/xen.git
