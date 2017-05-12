@@ -1,15 +1,15 @@
-apt-get install build-essential
+apt-get install -ya build-essential
 
 #xen
 
-apt-get install bcc bin86 gawk bridge-utils iproute libcurl3 libcurl4-openssl-dev bzip2 module-init-tools transfig tgif 
-apt-get install texinfo texlive-latex-base texlive-latex-recommended texlive-fonts-extra texlive-fonts-recommended pciutils-dev mercurial
-apt-get install make gcc libc6-dev zlib1g-dev python python-dev python-twisted libncurses5-dev patch libvncserver-dev libsdl-dev libjpeg62-dev
-apt-get install iasl libbz2-dev e2fslibs-dev git-core uuid-dev ocaml ocaml-findlib libx11-dev bison flex xz-utils libyajl-dev
-apt-get install gettext libpixman-1-dev libaio-dev markdown pandoc
+apt-get install -yq bcc bin86 gawk bridge-utils iproute libcurl3 libcurl4-openssl-dev bzip2 module-init-tools transfig tgif 
+apt-get install -yq texinfo texlive-latex-base texlive-latex-recommended texlive-fonts-extra texlive-fonts-recommended pciutils-dev mercurial
+apt-get install -yq make gcc libc6-dev zlib1g-dev python python-dev python-twisted libncurses5-dev patch libvncserver-dev libsdl-dev libjpeg62-dev
+apt-get install -yq iasl libbz2-dev e2fslibs-dev git-core uuid-dev ocaml ocaml-findlib libx11-dev bison flex xz-utils libyajl-dev
+apt-get install -yq gettext libpixman-1-dev libaio-dev markdown pandoc
 
-apt-get install liblzma-dev python-dev libglib2.0-dev libc6-dev-i386
+apt-get install -yq liblzma-dev python-dev libglib2.0-dev libc6-dev-i386
 
 
 #libvirt
-apt-get install xsltproc libnl-route-3-dev libnl-3-dev libxml2-dev libpciaccess
+apt-get install -yq xsltproc libnl-route-3-dev libnl-3-dev libxml2-dev libpciaccess libldm-dev
